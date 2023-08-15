@@ -48,7 +48,7 @@ const accountSlice = createSlice({
 });
 
 // Exporting the deposit, withdrawal, and transfer actions from the accountSlice
-export const {increment, decrement, reset} = accountSlice.actions
+export const {deposit, withdrawal, transfer} = accountSlice.actions
 
 // Exporting the accountSlice.reducer as the default export
 export default accountSlice.reducer
